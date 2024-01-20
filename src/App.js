@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Join from "./components/Join";
-import Plan from "./components/Plan";
 import Program from "./components/Program";
 import Reasons from "./components/Reasons";
 import Testimonial from "./components/Testimonial";

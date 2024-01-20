@@ -1,7 +1,4 @@
 import React from "react";
-import Github from "../assets/github.png";
-import LinkedIn from "../assets/linkedin.png";
-import logo from "../assets/logo.png";
 import Instgram from "../assets/instagram.png";
 import "./Footer.css";
 
@@ -11,13 +8,9 @@ function Footer(props) {
       <hr />
       <div className="footer">
         <div className="social-links">
-          {/* <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" /> */}
-          <a href="https://www.instagram.com/limitless_fitnessclub_gym/" target="_blank"><img className='InstaLogo' src={Instgram} alt="" /></a>
-          {/* <img className='InstaLogo' src={Instgram} alt="" /> */}
+          <a href="https://www.instagram.com/limitless_fitnessclub_gym/" target="_blank" rel="noreferrer"><img className='InstaLogo' src={Instgram} alt="" /></a>
         </div>
         <div className="logo-f">
-          {/* <img src={logo} alt="" /> */}
           Sagar Dubey
           Limitless fitness club
           <p>Contact: 6264583214</p>
