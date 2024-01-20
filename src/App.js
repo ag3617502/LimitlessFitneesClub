@@ -19,7 +19,9 @@ function App() {
           </div>
             <Header />
       <Switch>
+         <Route path="/mygymapp" exact component={ Hero } />
          <Route path="/" exact component={ Hero } />
+         <Route path="/home" exact component={ Hero } />
          <Route path="/programs" exact component={ Program } />
          <Route path="/why-us" exact component={ Reasons} />
          {/* <Route path="/plans" exact component={ Plan} /> */}
